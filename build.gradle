@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral() // Используем Maven Central для загрузки зависимостей
+}
+
+dependencies {
+    // Добавляем JUnit 5 для тестирования
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform() // Используем JUnit 5 для запуска тестов
+}
