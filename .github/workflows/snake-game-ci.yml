@@ -3,10 +3,10 @@ name: SnakeGame CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # Запускать workflow при пуше в ветку main
+      - master
   pull_request:
     branches:
-      - main  # Запускать workflow при открытии PR в ветку main
+      - master
 
 jobs:
   build:
