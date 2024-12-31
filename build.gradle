@@ -1,4 +1,6 @@
 plugins {
+    id 'org.springframework.boot' version '3.1.0'
+    id 'io.spring.dependency-management' version '1.1.0'
     id 'java'
 }
 
@@ -7,11 +9,14 @@ repositories {
 }
 
 dependencies {
-    // Добавляем JUnit 5 для тестирования
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
 }
 
 test {
     useJUnitPlatform() // Используем JUnit 5 для запуска тестов
+}
+springBoot {
+    mainClass.set("SnakeGame")
 }

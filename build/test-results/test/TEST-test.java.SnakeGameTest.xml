@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.SnakeGameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-18T00:01:37" hostname="MacBook-Air-Ila.local" time="0.004">
+<testsuite name="test.java.SnakeGameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-31T12:30:21" hostname="MacBook-Air-Ila.local" time="0.004">
   <properties/>
   <testcase name="testSnakeInitialization()" classname="test.java.SnakeGameTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
